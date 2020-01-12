@@ -6,3 +6,22 @@ a[target] {
     color: red;
 }
 
+#second-div p:nth-of-type(odd) {
+    color: red;
+}
+
+#second-div p:nth-of-type(even) {
+    color: blue;
+}
+
+#first-div > p::after {
+    content: " - new";
+    font-style: italic;
+    color: yellow;
+    text-transform: uppercase;
+
+}
+
+body > p:last-child:hover {
+    font-style: italic;
+}
