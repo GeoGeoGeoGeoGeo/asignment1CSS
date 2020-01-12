@@ -1,0 +1,8 @@
+a[href^="https://www.google.com"] {
+    color: green;
+}
+
+a[target] {
+    color: red;
+}
+
